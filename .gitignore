@@ -7,6 +7,7 @@ out-tsc
 
 # dependencies
 node_modules
+packges-lock.json
 
 # IDEs and editors
 /.idea
