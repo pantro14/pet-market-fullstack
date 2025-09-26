@@ -7,7 +7,6 @@ out-tsc
 
 # dependencies
 node_modules
-package-lock.json
 
 # IDEs and editors
 /.idea
@@ -18,12 +17,9 @@ package-lock.json
 .settings/
 *.sublime-workspace
 
+
 # IDE - VSCode
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 
 # misc
 /.sass-cache
@@ -45,3 +41,5 @@ Thumbs.db
 .github/instructions/nx.instructions.md
 
 .angular
+
+test-output
