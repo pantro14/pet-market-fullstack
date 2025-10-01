@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "build:backend": "./scripts/build-affected-backend.sh",
-    "start:backend": "node apps/pet-market-be/dist/main.js"
+    "start:backend": "./scripts/start-affected-backend.sh"
   },
   "private": true,
   "devDependencies": {
