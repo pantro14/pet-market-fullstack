@@ -39,7 +39,6 @@ async function main() {
       console.log(`Skipping existing product: ${productData.name}`);
     }
   }
-
   console.log('Seeding finished.');
 }
 
