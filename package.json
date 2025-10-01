@@ -2,7 +2,10 @@
   "name": "@pet-market-fullstack/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build:backend": "./scripts/build-affected-backend.sh",
+    "start:backend": "node apps/pet-market-be/dist/main.js"
+  },
   "private": true,
   "devDependencies": {
     "@angular-devkit/core": "~20.2.0",
